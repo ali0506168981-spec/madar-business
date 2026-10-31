@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مدار الأعمال - Madar Business</title>
+    <style>
+        :root {
+            --primary-color: #0B192C;
+            --secondary-color: #FFD700;
+            --bg-color: #f4f6f9;
+            --text-color: #333;
+            --white: #ffffff;
+        }
+        body {
+            font-family: Tahoma, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            text-align: right;
+        }
+        header {
+            background-color: var(--primary-color);
+            color: var(--white);
+            padding: 25px 20px;
+            text-align: center;
+            border-bottom: 4px solid var(--secondary-color);
+        }
+        header h1 {
+            margin: 0;
+            color: var(--secondary-color);
+            font-size: 28px;
+        }
+        header p {
+            margin: 8px 0 0;
+            font-size: 15px;
+            color: #ddd;
+        }
+        .container {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        .hero-card {
+            background: var(--white);
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            border-right: 5px solid var(--secondary-color);
+        }
+        .hero-card h2 {
+            color: var(--primary-color);
+            margin-top: 0;
+        }
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        .service-card {
+            background: var(--white);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            transition: transform 0.2s;
+        }
+        .service-card h3 {
+            color: var(--primary-color);
+            margin-top: 0;
+            font-size: 18px;
+            border-bottom: 2px solid var(--bg-color);
+            padding-bottom: 8px;
+        }
+        .service-card ul {
+            padding-right: 20px;
+            margin: 10px 0 0;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 13px;
+            color: #666;
+            background-color: var(--white);
+            border-top: 1px solid #ddd;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>مدار الأعمال</h1>
+        <p>منصتك الموحدة لخدمات الأعمال والتراخيص والتأمين في المملكة</p>
+    </header>
+
+    <div class="container">
+        <div class="hero-card">
+            <h2>أهلاً بك في مدار الأعمال</h2>
+            <p>نعمل على تسهيل احتياجات الأفراد والمنشآت في مجال خدمات الأعمال، التراخيص، والخدمات الإدارية باحترافية عالية، عبر جمع الخدمات في مكان واحد وربطك بالمختصين.</p>
+        </div>
+
+        <h2 style="color: var(--primary-color); text-align: center; margin-bottom: 20px;">قطاعات الخدمات الرئيسية</h2>
+
+        <div class="services-grid">
+            <div class="service-card">
+                <h3>التراخيص والسجلات</h3>
+                <ul>
+                    <li>التراخيص البلدية والاشتراطات</li>
+                    <li>تأسيس الشركات والسجلات التجارية</li>
+                    <li>خدمات المستثمرين والتراخيص الاستثمارية</li>
+                </ul>
+            </div>
+
+            <div class="service-card">
+                <h3>الخدمات الحكومية والعمالية</h3>
+                <ul>
+                    <li>خدمات الموارد البشرية ومنصة قوى</li>
+                    <li>خدمات مقيم وأبشر أعمال</li>
+                    <li>متابعة وتحديث الوثائق الرسمية</li>
+                </ul>
+            </div>
+
+            <div class="service-card">
+                <h3>التأمين والخدمات القانونية</h3>
+                <ul>
+                    <li>التأمين الطبي وتأمين المركبات</li>
+                    <li>الخدمات القانونية عبر مختصين مرخصين</li>
+                    <li>إعداد عروض الأسعار واستشارات الأعمال</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2026 مدار الأعمال (Madar Business). جميع الحقوق محفوظة.
+    </footer>
+
+</body>
+</html>
